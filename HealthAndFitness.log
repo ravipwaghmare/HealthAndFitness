@@ -10,3 +10,7 @@
 {"time":"2020-11-24T21:39:42.3631655+05:30","level":"-","prefix":"-","file":"main.go","line":"28","message":"CONNECT TO DATABASE"}
 {"time":"2020-11-24T21:39:42.3851085+05:30","level":"-","prefix":"-","file":"main.go","line":"34","message":"START UP SERVER"}
 {"time":"2020-11-24T21:40:48.8788912+05:30","id":"","remote_ip":"::1","host":"localhost:8080","method":"POST","uri":"/auth/user/signin","user_agent":"PostmanRuntime/7.13.0","status":200,"error":"no such table: users","latency":3990800,"latency_human":"3.9908ms","bytes_in":65,"bytes_out":45}
+{"time":"2020-11-24T21:45:34.8457862+05:30","level":"-","prefix":"-","file":"main.go","line":"28","message":"CONNECT TO DATABASE"}
+{"time":"2020-11-24T21:45:34.8577547+05:30","level":"-","prefix":"-","file":"main.go","line":"34","message":"START UP SERVER"}
+{"time":"2020-11-24T21:46:19.2740856+05:30","id":"","remote_ip":"::1","host":"localhost:8080","method":"POST","uri":"/auth/user/signin","user_agent":"PostmanRuntime/7.13.0","status":200,"error":"","latency":4986100,"latency_human":"4.9861ms","bytes_in":67,"bytes_out":195}
+{"time":"2020-11-24T21:46:59.0931959+05:30","id":"","remote_ip":"::1","host":"localhost:8080","method":"POST","uri":"/auth/user/signin","user_agent":"PostmanRuntime/7.13.0","status":200,"error":"","latency":2001500,"latency_human":"2.0015ms","bytes_in":67,"bytes_out":195}
