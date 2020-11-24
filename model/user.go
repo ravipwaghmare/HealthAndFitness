@@ -13,3 +13,8 @@ type User struct {
 	Password      string `json:"password"`
 	AccountStatus bool   `json:"accountStatus"`
 }
+
+// SignInResponse response body
+type SignInResponse struct {
+	User User `json:"user"`
+}

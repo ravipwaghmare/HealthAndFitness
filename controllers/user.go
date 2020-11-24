@@ -24,3 +24,12 @@ func (controller User) Create(user *model.User) error {
 	user.Email = strings.ToLower(user.Email)
 	return controller.database.Create(user).Error
 }
+
+// FindByEmail will find user by email
+func (controller User) FindByEmail(email string) (*model.User, error) {
+	user := new(model.User)
+	if err := controller.database.Where("email = ?", strings.ToLower(email)).First(user).Error; err != nil {
+		return nil, err
+	}
+	return user, nil
+}

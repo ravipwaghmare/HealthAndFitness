@@ -32,6 +32,11 @@ func main() {
 	}
 
 	log.Print("START UP SERVER")
-	_, _ = server.New(db, &logger)
+	apiServer, err := server.New(db, &logger)
 
+	if err != nil {
+		panic(fmt.Errorf("fatal error setting up server: %s", err))
+	}
+
+	apiServer.Logger.Fatal(apiServer.Start(":8080"))
 }

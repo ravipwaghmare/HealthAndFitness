@@ -13,4 +13,9 @@ func InitializeRouters(server Server) {
 	UserRouter = routing.NewUserRouter(
 		UserController,
 	)
+
+	// register routes
+	authGroup := server.Group("/auth")
+	UserRouter.Register(authGroup)
+	UserRouter.Register(authGroup.Group("/user"))
 }
