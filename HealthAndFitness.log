@@ -54,3 +54,10 @@
 {"time":"2020-11-25T15:19:57.0183219+05:30","level":"-","prefix":"-","file":"main.go","line":"34","message":"START UP SERVER"}
 {"time":"2020-11-25T15:20:59.6167267+05:30","level":"ERROR","prefix":"-","file":"goals.go","line":"26","message":"database is locked"}
 {"time":"2020-11-25T15:20:59.620716+05:30","id":"","remote_ip":"::1","host":"localhost:8080","method":"PUT","uri":"/goals/weight","user_agent":"PostmanRuntime/7.26.8","status":200,"error":"Error while updating weight goal","latency":5185172400,"latency_human":"5.1851724s","bytes_in":28,"bytes_out":57}
+{"time":"2020-11-25T15:26:32.9507909+05:30","level":"-","prefix":"-","file":"main.go","line":"28","message":"CONNECT TO DATABASE"}
+{"time":"2020-11-25T15:26:32.9647448+05:30","level":"-","prefix":"-","file":"main.go","line":"34","message":"START UP SERVER"}
+{"time":"2020-11-25T15:26:46.4243862+05:30","level":"ERROR","prefix":"-","file":"goals.go","line":"27","message":"database is locked"}
+{"time":"2020-11-25T15:26:46.4303672+05:30","id":"","remote_ip":"::1","host":"localhost:8080","method":"PUT","uri":"/goals/weight","user_agent":"PostmanRuntime/7.26.8","status":200,"error":"Error while updating weight goal","latency":5110679700,"latency_human":"5.1106797s","bytes_in":28,"bytes_out":57}
+{"time":"2020-11-25T15:27:19.0204499+05:30","id":"","remote_ip":"::1","host":"localhost:8080","method":"PUT","uri":"/goals/weight","user_agent":"PostmanRuntime/7.26.8","status":200,"error":"","latency":4987100,"latency_human":"4.9871ms","bytes_in":28,"bytes_out":46}
+{"time":"2020-11-25T15:27:35.7454661+05:30","id":"","remote_ip":"::1","host":"localhost:8080","method":"PUT","uri":"/goals/weight","user_agent":"PostmanRuntime/7.26.8","status":200,"error":"","latency":17951600,"latency_human":"17.9516ms","bytes_in":28,"bytes_out":46}
+{"time":"2020-11-25T15:28:56.6270513+05:30","id":"","remote_ip":"::1","host":"localhost:8080","method":"PUT","uri":"/goals/steps","user_agent":"PostmanRuntime/7.26.8","status":200,"error":"","latency":57845100,"latency_human":"57.8451ms","bytes_in":29,"bytes_out":45}
