@@ -6,6 +6,7 @@ import (
 
 var (
 	UserRouter routing.User
+	GoalRouter routing.Goals
 )
 
 //InitializeRouters will create routing page for user
@@ -18,4 +19,11 @@ func InitializeRouters(server Server) {
 	authGroup := server.Group("/auth")
 	UserRouter.Register(authGroup)
 	UserRouter.Register(authGroup.Group("/user"))
+
+	GoalRouter = routing.NewGoalsRouter(
+		GoalsController,
+	)
+
+	GoalRouter.Register(server.Group("/goals"))
+
 }
